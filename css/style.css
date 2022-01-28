@@ -754,11 +754,15 @@ hr{
                 margin-top: 30px;
             }
             .category ul{
-                overflow-x: scroll;
+                /* overflow-x: scroll; */
+                flex-direction: column;
+                align-items: center;
             }
             .category ul li{
                 margin-right: 25px;
+                margin-bottom: 10px;
             }
+            
             .s5{
                 margin: 0px;
             }
@@ -819,4 +823,7 @@ hr{
    .s4-content img{
        width: 100%;
    }
+   .footer-block .first li svg {    
+        float: right;
         }
+    }
