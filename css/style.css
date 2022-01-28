@@ -543,6 +543,9 @@ color: #363853;
     display: flex;
     flex-direction: column;
 }
+.footer-block .first li svg{
+    margin-right: 20px;
+}
 .footer-block .first li{
     display: flex;
     align-items: center;
@@ -572,7 +575,8 @@ hr{
 
 
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!MEDIA QUERY!!!!!!!!!!!!!!!!!!!!!!!!! */
+
            @media (min-width:992px) and (max-width:1169px){
             .container{
                 max-width: 980px;
@@ -641,6 +645,7 @@ hr{
             .category ul {
                 display: flex;
                 flex-direction: column;
+                margin: 0 30px;
             }
             .category ul li{
                 margin-top: 3%;
@@ -693,6 +698,10 @@ hr{
             width: 90%;
             height: 60px; 
             border-style: none;
+        }
+        .burger-item p{
+            text-align: center;
+            padding: 0 25px;
         }
             
         
